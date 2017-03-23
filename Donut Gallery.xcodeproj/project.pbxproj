@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A121151E6D264000EA0FAE /* Donut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A121141E6D264000EA0FAE /* Donut.swift */; };
 		00A30A461E6CC77B00132284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A30A451E6CC77B00132284 /* AppDelegate.swift */; };
-		00A30A481E6CC77B00132284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A30A471E6CC77B00132284 /* ViewController.swift */; };
+		00A30A481E6CC77B00132284 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A30A471E6CC77B00132284 /* MainVC.swift */; };
 		00A30A4B1E6CC77B00132284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A30A491E6CC77B00132284 /* Main.storyboard */; };
-		00A30A4D1E6CC77B00132284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A30A4C1E6CC77B00132284 /* Assets.xcassets */; };
 		00A30A501E6CC77B00132284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A30A4E1E6CC77B00132284 /* LaunchScreen.storyboard */; };
 		00A30A5B1E6CC77B00132284 /* Donut_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A30A5A1E6CC77B00132284 /* Donut_GalleryTests.swift */; };
 		00A30A661E6CC77B00132284 /* Donut_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A30A651E6CC77B00132284 /* Donut_GalleryUITests.swift */; };
+		00A30A741E6CCC3500132284 /* Acidses.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00A30A731E6CC82E00132284 /* Acidses.otf */; };
+		00A30A781E6CD7F900132284 /* DonutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A30A771E6CD7F900132284 /* DonutVC.swift */; };
+		00EAB85D1E7C7A6E0070F6C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EAB85C1E7C7A6E0070F6C6 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A121141E6D264000EA0FAE /* Donut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donut.swift; sourceTree = "<group>"; };
 		00A30A421E6CC77B00132284 /* Donut Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Donut Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A30A451E6CC77B00132284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00A30A471E6CC77B00132284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00A30A471E6CC77B00132284 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		00A30A4A1E6CC77B00132284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00A30A4C1E6CC77B00132284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00A30A4F1E6CC77B00132284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00A30A511E6CC77B00132284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A30A561E6CC77B00132284 /* Donut GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Donut GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,9 @@
 		00A30A611E6CC77B00132284 /* Donut GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Donut GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A30A651E6CC77B00132284 /* Donut_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donut_GalleryUITests.swift; sourceTree = "<group>"; };
 		00A30A671E6CC77B00132284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A30A731E6CC82E00132284 /* Acidses.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Acidses.otf; sourceTree = "<group>"; };
+		00A30A771E6CD7F900132284 /* DonutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutVC.swift; sourceTree = "<group>"; };
+		00EAB85C1E7C7A6E0070F6C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				00A30A451E6CC77B00132284 /* AppDelegate.swift */,
-				00A30A471E6CC77B00132284 /* ViewController.swift */,
+				00A30A471E6CC77B00132284 /* MainVC.swift */,
+				00A30A771E6CD7F900132284 /* DonutVC.swift */,
+				00A121141E6D264000EA0FAE /* Donut.swift */,
 				00A30A491E6CC77B00132284 /* Main.storyboard */,
-				00A30A4C1E6CC77B00132284 /* Assets.xcassets */,
+				00EAB85C1E7C7A6E0070F6C6 /* Images.xcassets */,
+				00A30A731E6CC82E00132284 /* Acidses.otf */,
 				00A30A4E1E6CC77B00132284 /* LaunchScreen.storyboard */,
 				00A30A511E6CC77B00132284 /* Info.plist */,
 			);
@@ -232,8 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A30A741E6CCC3500132284 /* Acidses.otf in Resources */,
+				00EAB85D1E7C7A6E0070F6C6 /* Images.xcassets in Resources */,
 				00A30A501E6CC77B00132284 /* LaunchScreen.storyboard in Resources */,
-				00A30A4D1E6CC77B00132284 /* Assets.xcassets in Resources */,
 				00A30A4B1E6CC77B00132284 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00A30A481E6CC77B00132284 /* ViewController.swift in Sources */,
+				00A121151E6D264000EA0FAE /* Donut.swift in Sources */,
+				00A30A781E6CD7F900132284 /* DonutVC.swift in Sources */,
+				00A30A481E6CC77B00132284 /* MainVC.swift in Sources */,
 				00A30A461E6CC77B00132284 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +517,7 @@
 				00A30A6C1E6CC77B00132284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A30A6D1E6CC77B00132284 /* Build configuration list for PBXNativeTarget "Donut GalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				00A30A6F1E6CC77B00132284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A30A701E6CC77B00132284 /* Build configuration list for PBXNativeTarget "Donut GalleryUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				00A30A721E6CC77B00132284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
